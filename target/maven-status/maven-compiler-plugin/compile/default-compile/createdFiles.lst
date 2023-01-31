@@ -1,0 +1,7 @@
+com/datastax/workshop/todo/TodoRestController.class
+com/datastax/workshop/conf/SpringDataConfig.class
+com/datastax/workshop/hello/HelloWorldRestController.class
+com/datastax/workshop/todo/TodoRepositorySimpleCassandra.class
+com/datastax/workshop/todo/TodoEntity.class
+com/datastax/workshop/todo/TodoRepositoryCassandra.class
+com/datastax/workshop/todo/Todo.class

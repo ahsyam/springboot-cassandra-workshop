@@ -1,18 +1,18 @@
 package com.datastax.workshop;
 
+import com.datastax.workshop.todo.TodoRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.datastax.workshop.todo.TodoEntity;
-import com.datastax.workshop.todo.TodoRepositoryCassandra;
 
 @SpringBootTest
 class TodobackendSpringdataApplicationTests {
 
     @Autowired
-    private TodoRepositoryCassandra repo;
+    private TodoRepository repo;
     
 	@Test
 	void shoud_save_task_when_save() {

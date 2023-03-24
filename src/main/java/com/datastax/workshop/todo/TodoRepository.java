@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
  * For Basic operations you can leverage on Interface only repository
  */
 @Repository
-public interface TodoRepositoryCassandra extends CassandraRepository<TodoEntity, UUID> {
+public interface TodoRepository extends CassandraRepository<TodoEntity, UUID> {
 
 }
